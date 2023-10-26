@@ -1,143 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html> 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>RepoApp</title>
     
-    <link rel="icon" href="https://raw.githubusercontent.com/hermanumrao/RepoApp/main/assets/images/favicon.png" type="image/png">
-
   <link href="assets/css/style.css" rel="stylesheet">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
-}
-
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-</style>
+  <link rel="icon" href="https://raw.githubusercontent.com/hermanumrao/RepoApp/main/assets/images/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Playpen+Sans&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-
-  <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <div class="logo">
-        <h1 class="text-light"><a href="index.html"><span>Ninestars</span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About Us</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
-<h2>Cities</h2>
-
-<section>
-  <nav>
-    <ul>
-      <li><a href="#">London</a></li>
-      <li><a href="#">Paris</a></li>
-      <li><a href="#">Tokyo</a></li>
+<body style="background-color: black;">
+  <nav id = "nav" style="background-color: darkgrey; " >
+    <img src="https://raw.githubusercontent.com/hermanumrao/RepoApp/main/assets/images/black_logo.png" alt="logo" >
+    <div>
+      <ul class="topnav">
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li class="right"><a href="#about">About</a></li>
     </ul>
+  </div>
   </nav>
-  
-  <article>
-    <h1>London</h1>
-    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-  </article>
-</section>
-
+  <header id="header" style="background-color: darkgray;">
+      hello
+  </header><!-- End Header -->
+    <div style="align-items: middle; display: flex; padding: 40px;" ><img src="https://raw.githubusercontent.com/hermanumrao/RepoApp/main/assets/images/color_logo.png" alt="logo" width="30%" left=5% style="vertical-align: middle" >
+  </div>
+<p><br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..<br>..</p>
 <footer id="contact">
   <p>Footer</p>
 </footer>
-
+qeksjfwnjnrw
 </body>
 </html>
 
